@@ -97,8 +97,8 @@ describe('techTest.rewardService', () => {
   it('Should be a function', () => {
     expect(techTest.rewardsService).to.be.a('function');
   });
-  it('Should expect 1 parameter', () => {
-    expect(techTest.rewardsService.length).to.eql(1);
+  it('Should expect no parameters', () => {
+    expect(techTest.rewardsService.length).to.eql(0);
   });
   it('Should return true when completed', () => {
     expect(techTest.rewardsService()).to.eql(true);
