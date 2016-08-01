@@ -23,6 +23,7 @@ var techTest = {
       }
       console.log(this.eligibilityService(this.data[accNo]));
     }
+    return true;
   }
 };
 

@@ -6,13 +6,13 @@
   "scripts": {
     "test": "mocha spec/",
     "lint": "semistandard --verbose | snazzy"
-
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsonfile": "^2.3.1"
+    "jsonfile": "^2.3.1",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "chai": "^3.5.0",
