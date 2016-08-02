@@ -16,7 +16,7 @@ var techTest = {
     }
   },
   rewardsService: function () {
-    for (var accNo in this.data) {
+    for (var accNo in data) {
       if (!this.checkAccNo(accNo)) {
         console.log('Invalid account number exception: ' + accNo);
         continue;

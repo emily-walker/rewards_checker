@@ -1,0 +1,22 @@
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+.fade.load {
+    opacity: 1;
+}
+
+.is-white, .bar {
+    color: #ffffff;
+    background: #ffffff;
+}
+
+.is-blue {
+    color: #42afe3
+}
+
+button.is-primary.is-active {
+    background-color: #42afe3; }

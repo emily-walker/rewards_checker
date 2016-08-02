@@ -1,7 +1,7 @@
 /*global describe it */
 var path = require('path');
 var expect = require('chai').expect;
-var techTest = require(path.join(__dirname, '..', './sky_tech_test.js'));
+var techTest = require(path.join(__dirname, '..', './rewards_checker.js'));
 
 describe('techTest object', function () {
   'use strict';
