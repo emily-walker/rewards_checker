@@ -1,22 +1,47 @@
-.fade {
-    opacity: 0;
-    -webkit-transition: opacity 2s ease-in;
-    -moz-transition: opacity 2s ease-in;
-    -o-transition: opacity 2s ease-in;
-    transition: opacity 2s ease-in;
+html {
+    overflow: hidden;
+    height: 100%;
 }
-.fade.load {
-    opacity: 1;
-}
-
-.is-white, .bar {
-    color: #ffffff;
-    background: #ffffff;
+body {
+    overflow: auto;
+    height: 100%;
 }
 
 .is-blue {
     color: #42afe3
 }
 
-button.is-primary.is-active {
-    background-color: #42afe3; }
+.modal-background {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#rewardsModal {
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    width: 100%;
+    display: none;
+    overflow: auto;
+    color: #42afe3;
+}
+
+.example-appear {
+    opacity: 0;
+}
+
+.example-appear.example-appear-active {
+    opacity: 1;
+    transition: opacity 3s ease-in;
+}
+
+#display-area {
+    padding-bottom: 3%;
+}
+
+.title {
+    padding-bottom: 1%
+}
